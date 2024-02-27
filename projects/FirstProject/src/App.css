@@ -1,0 +1,45 @@
+.card{
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;    
+    justify-content: space-between;
+}
+.card .card-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.card .card-avatar{
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.card .card-info{
+    display: grid;
+    margin-left: .5rem;
+    margin-right: 1rem;
+    min-width: 5rem;
+    & .card-acount{
+        color: #ccc;
+        font-size: small;
+    }
+}
+.card .card-button{
+    padding: .3rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card .followed{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    width: 9rem;
+}
+.card .followed:hover{
+    background-color: transparent;
+    color: rgba(212, 34, 34, 0.76);
+
+}
